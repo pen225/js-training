@@ -6,6 +6,12 @@
  * and in lowercase for the rest of the string
  *
  */
+const capitalize = (chaine) =>{
+    let charUn = chaine[0].toUpperCase();
+    let charRest = chaine.slice(1)
+    charRest = charRest.toLowerCase()
+    return charUn + charRest;
+}
 
 
 //* Begin of tests

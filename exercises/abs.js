@@ -10,7 +10,15 @@
  */
 
 // Your code :
-
+function abs (x){
+    let valAbsolue;
+    if (x >= 0) {
+        valAbsolue = x;
+    }else{
+        valAbsolue = -x;
+    }
+    return valAbsolue;
+}
 //* Begin of tests
 const assert = require('assert')
 

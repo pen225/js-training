@@ -11,7 +11,12 @@
  * and only keep 2 characters from the third character
  *
  */
-
+const keepFirst = (chaine) =>{
+    return chaine.substring(0,2)
+}
+const keepFirst = (chaine) =>{
+    return chaine.substring(0,2)
+}
 
 //* Begin of tests
 const assert = require('assert')
