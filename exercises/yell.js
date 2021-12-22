@@ -5,10 +5,12 @@
  * and return the same string in upper case
  *
  */
-
+const yell = (chaine) =>{
+    return chaine.toUpperCase();
+}
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(typeof yell, 'function')
 // End of tests */

@@ -5,7 +5,9 @@
  * and return an array of each words using space as a delimiter
  *
  */
-
+const words = (chaine) => {
+    return chaine.splice();
+}
 
 //* Begin of tests
 const assert = require('assert')

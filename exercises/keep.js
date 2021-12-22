@@ -12,14 +12,17 @@
  *
  */
 const keepFirst = (chaine) =>{
-    return chaine.substring(0,2)
+    return chaine.substring(0,2);
 }
-const keepFirst = (chaine) =>{
-    return chaine.substring(0,2)
+const keepLast = (chaine) =>{
+    return chaine.substring(chaine.length,  chaine.length-2);
 }
+
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(typeof keepFirst, 'function')
+assert.strictEqual(typeof keepLast, 'function')
+
 // End of tests */

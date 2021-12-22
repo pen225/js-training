@@ -39,11 +39,11 @@
 //   console.log(get('ydtff'));
 //   console.log('====================================');
 
-const keepFirst = (chaine) =>{
-    return chaine.substring(0,2)
+const whisper = (chaine) => {
+  return chaine.toUpperCase();
 }
 
 
 console.log('====================================');
-console.log(keepFirst('Penuel'));
+console.log(whisper('BONjour le Pen'));
 console.log('====================================');
