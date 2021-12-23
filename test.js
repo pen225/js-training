@@ -39,11 +39,11 @@
 //   console.log(get('ydtff'));
 //   console.log('====================================');
 
-const whisper = (chaine) => {
-  return chaine.toUpperCase();
+const words = (chaine) => {
+  return chaine.join('');
 }
 
 
 console.log('====================================');
-console.log(whisper('BONjour le Pen'));
+console.log(words['Pen', 'Oth', 'Olivier']);
 console.log('====================================');

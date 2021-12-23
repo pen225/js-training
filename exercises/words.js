@@ -6,7 +6,7 @@
  *
  */
 const words = (chaine) => {
-    return chaine.splice();
+    return chaine.split(' ');
 }
 
 //* Begin of tests

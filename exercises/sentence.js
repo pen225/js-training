@@ -5,11 +5,8 @@
  * and return a string of all the element separated by a space
  *
  */
-const sentence = (array) =>{
-     for (let i = 0; i < array.length; i++) {
-        return array[i];
-        
-    }
+const sentence = (tab) =>{
+     return tab.join(' ');
 }
 
 //* Begin of tests

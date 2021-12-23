@@ -13,4 +13,6 @@ const yell = (chaine) =>{
 const assert = require('assert')
 
 assert.strictEqual(typeof yell, 'function')
+assert.strictEqual(yell('str'), 'STR')
+assert.strictEqual(yell('zapZAP'), 'ZAPZAP')
 // End of tests */

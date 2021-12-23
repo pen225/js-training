@@ -14,5 +14,6 @@ const whisper = (chaine) => {
 const assert = require('assert')
 
 assert.strictEqual(typeof whisper, 'function')
-// assert.strictEqual(capitalize('StS'), 'sts')
+assert.strictEqual(whisper('StS'), 'sts')
+assert.strictEqual(whisper('BONJOUR LE PEN'), 'bonjour le pen')
 // End of tests */
